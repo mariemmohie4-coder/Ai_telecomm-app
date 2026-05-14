@@ -10,8 +10,7 @@ def get_base64_image(image_path):
 
 def load_background():
     img = get_base64_image(
-      "C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/ChatGPT Image May 1, 2026, 10_07_38 PM.png"
-    )
+"ChatGPT Image May 1, 2026, 10_07_38 PM.png"    )
 
     page_bg = f"""
     <style>
@@ -68,8 +67,8 @@ def login():
 
     st.title("Welcome, Great to see you")
     
-    st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/518087549_1202687025203949_8625208704131875526_n.png")
-    st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/AI & telecom  Omar Ahmed (1).jpg")
+    st.image("518087549_1202687025203949_8625208704131875526_n.png")
+    st.image("AI & telecom  Omar Ahmed (1).jpg")
 
     full_name = st.text_input("Username")
     ID = st.text_input("Password", type="password")
