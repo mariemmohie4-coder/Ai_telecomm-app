@@ -21,7 +21,7 @@ def home(name):
         layout="centered"
     )
     
-    img = get_base64_image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Blog-images-scaled.jpg")
+    img = get_base64_image("Blog-images-scaled.jpg")
 
     page_bg = f"""
     <style>
@@ -94,12 +94,12 @@ def home(name):
         # link for each account
         st.header("LinkedIn Page")
         st.subheader("Connect with us")
-        st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/omar_linkedin.png")
+        st.image("omar_linkedin.png")
         col1, col2, col3 =st.columns(3)
         with col2:
          st.link_button("Omar on LinkedIn","https://www.linkedin.com/in/omar-ahmed-7590491ba?utm_source=share_via&utm_content=profile&utm_medium=member_android")
 
-        st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/mariem_linkedin.png")
+        st.image("mariem_linkedin.png")
         col1,col2,col3=st.columns(3)
         with col2:
          st.link_button("Mariem on LinkedIn","https://www.linkedin.com/in/mariemmohie50")
@@ -114,14 +114,14 @@ def home(name):
         st.write("Here you can add your slides links or descriptions.")
         st.link_button("Go to Google Drive to Download Slides","https://drive.google.com/file/d/1bIvXEW6EHHURYlWypauDfCIUPcWGMXLZ/view?usp=drive_link")
         st.write("Preview Slides:")
-        show_pdf("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/test.pdf")
+        show_pdf("test.pdf")
 
 
     elif option == "IEEE APS":
         # add IEEE AP-S Logo ( google it )
         # add information after logo ( chatgpt - google it )
         st.header("IEEE APS")
-        st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/aps-logo.png")
+        st.image("aps-logo.png")
         st.write("IEEE Antennas and Propagation Society content goes here.")
         st.markdown("""
         ### Connecting the World Through Electromagnetic Innovation
@@ -146,15 +146,15 @@ def home(name):
         st.subheader("IEEE AP-S Founders")
         col1,col2,col3 = st.columns([2, 2, 2])
         with col1:
-            st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Omar Ahmed.jpg",caption="Omar Ahmed")
-            st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Aly Eldeen.jpg",caption="Aly Eldeen")
+            st.image("Omar Ahmed.jpg",caption="Omar Ahmed")
+            st.image("Aly Eldeen.jpg",caption="Aly Eldeen")
 
         with col2:
-             st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Khaled Elaskry.jpg",caption="Khaled Elaskry")
-             st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Zaid Ismail.jpg",caption="Zaid Ismail")
+             st.image("Khaled Elaskry.jpg",caption="Khaled Elaskry")
+             st.image("Zaid Ismail.jpg",caption="Zaid Ismail")
         
         with col3:
-            st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/Fares Shreif.jpg", caption="Fares Shreif")
+            st.image("Fares Shreif.jpg", caption="Fares Shreif")
     
             
 
@@ -193,26 +193,26 @@ def home(name):
         st.subheader("Meet the Board")
         b1, b2, b3 = st.columns(3)
         with b1:
-         st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/omar_linkedin.png",caption="Head:Omar Ahmed")
+         st.image("omar_linkedin.png",caption="Head:Omar Ahmed")
          st.link_button("Omar on LinkedIn","https://www.linkedin.com/in/omar-ahmed-7590491ba?utm_source=share_via&utm_content=profile&utm_medium=member_android")
          
         with b2:
-         st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/marwan.png",caption="Vice Head:Marwan Abbas")
+         st.image("marwan.png",caption="Vice Head:Marwan Abbas")
          st.link_button("Marwan on LinkedIn","https://www.linkedin.com/in/marwan-abbas-ba1509266?utm_source=share_via&utm_content=profile&utm_medium=member_android")
-         st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/omar ashraf.png",caption="Vice Head:Omar Ashraf")
+         st.image("omar ashraf.png",caption="Vice Head:Omar Ashraf")
          st.link_button("Omar on LinkedIn","https://www.linkedin.com/in/omar-ashraf-790086178?utm_source=share_via&utm_content=profile&utm_medium=member_android")
 
 
         with b3:
-         st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/mohammed adel.png",caption="Mentor:Mohammed Adel")
+         st.image("mohammed adel.png",caption="Mentor:Mohammed Adel")
          st.link_button("Mohammed on LinkedIn","https://www.linkedin.com/in/mohammed-adel-b56615248?utm_source=share_via&utm_content=profile&utm_medium=member_android")
-         st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/alaa.png",caption="Mentor:Alaa Sweed")
+         st.image("alaa.png",caption="Mentor:Alaa Sweed")
          st.link_button("Omar on LinkedIn","https://www.linkedin.com/in/alaa-sweed-981228301?utm_source=share_via&utm_content=profile&utm_medium=member_android")
 
 
         st.subheader("Whatsapp Group:")
         st.link_button("Whatsapp Group Link","https://chat.whatsapp.com/DdHO6G4yb9H2qlfDVAGe8i")
-        st.image("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/training.jpg",width=300)
+        st.image("training.jpg",width=300)
     elif option == "Graduation Projects":
         #show_pdf("C:/Users/Mega Store/Downloads/AI_PDF.pdf")
         # slides ideas :
@@ -221,7 +221,7 @@ def home(name):
         st.write("Ideas and descriptions for graduation projects go here.")
         st.link_button("Go to Google Drive to Download pdf","https://drive.google.com/file/d/1bIvXEW6EHHURYlWypauDfCIUPcWGMXLZ/view?usp=drive_link")
         st.write("Preview Slides:")
-        show_pdf("C:/Users/Lenovo/OneDrive/Desktop/STR_AITELECOM/test.pdf")
+        show_pdf("test.pdf")
 
 
         
